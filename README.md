@@ -1,8 +1,8 @@
 # Readme
 
-Python 3
-Install `catergory_encoders` using pip install `pip install category_encoders`
-Install `scikit-learn` using pip install `pip install -U scikit-learn`
+* Python 3
+* Install `catergory_encoders` using pip install `pip install category_encoders`
+* Install `scikit-learn` using pip install `pip install -U scikit-learn`
 
 ## Predicting Apartment Prices in Mexico City
 
