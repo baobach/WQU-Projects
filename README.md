@@ -4,6 +4,28 @@
 * Install `catergory_encoders` using pip install `pip install category_encoders`
 * Install `scikit-learn` using pip install `pip install -U scikit-learn`
 
+## NFT Price Predictor
+
+### Introduction
+
+This project aims to build a machine learning model to predict the price of NFTs based on their traits. The data from the Bored Ape Yatch Club collection is used to form the feature matrix (X) and the price data from Dune.xyz is used as the target vector (y). The model will be trained on this data to make predictions on NFT prices.
+
+### Data Collection
+
+The data for the project is collected from two sources. The NFT traits are collected from the IPFS server "https://ipfs.io/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/". The price data is collected by querying the Opensea data from "https://dune.com/home".
+
+### Data Preparation
+
+The collected data is then processed to create a dataframe that contains both the feature matrix (X) and the target vector (y). The dataframe is then split into a training set and a test set with an 80/20 split to allow for the model to be evaluated on unseen data.
+
+### Model Building
+
+A simple linear regression model is built to predict the price of the NFTs based on their traits. The model is trained using the training set data and the target vector (y).
+
+### Conclusion
+
+This project provides a simple example of how to build a machine learning model to predict the price of NFTs based on their traits. The model can be improved upon and made more complex to improve its accuracy. The use of a training and test set split allows for an evaluation of the model's performance on unseen data.
+
 ## Predicting Apartment Prices in Mexico City
 
 In this project, I will demonstate how I build a machine learning model to predict the price of the apartment in Mexico city.
